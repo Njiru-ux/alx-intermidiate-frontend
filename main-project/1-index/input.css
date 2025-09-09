@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-blue-200 { background-color: rgb(219 234 254); }
+  .bg-blue-300 { background-color: rgb(147 197 253); }
+  .bg-blue-400 { background-color: rgb(96 165 250); }
+  .h-32 { height: 8rem; }
+  .grid { display: grid; }
+  .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .gap-4 { gap: 1rem; }
+  .p-4 { padding: 1rem; }
+}
+
+@media (max-width: 768px) {
+  main { grid-template-columns: 1fr; }
+}@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities to ensure all classes are included */
+@layer utilities {
+  .bg-blue-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+  }
+  .bg-blue-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+  }
+  .bg-blue-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  }
+  .h-32 {
+    height: 8rem;
+  }
+  .grid {
+    display: grid;
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .gap-4 {
+    gap: 1rem;
+  }
+  .p-4 {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities to ensure all classes are included */
+@layer utilities {
+  .bg-blue-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+  }
+  .bg-blue-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+  }
+  .bg-blue-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  }
+  .h-32 {
+    height: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities to ensure colors are included */
+@layer utilities {
+  .bg-blue-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+  }
+  .bg-blue-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+  }
+  .bg-blue-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  }
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Safelist - forces Tailwind to include these classes */
+@layer utilities {
+    .bg-blue-200 {
+        background-color: rgb(219 234 254);
+    }
+    .bg-blue-300 {
+        background-color: rgb(147 197 253);
+    }
+    .bg-blue-400 {
+        background-color: rgb(96 165 250);
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  margin-left: 1.25rem;
+}
+.bg-gray-300 { background-color: #d1d5db; }
+.text-white { color: #ffffff !important; }
+.p-4 { padding: 1rem; }
+.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+.text-xl { font-size: 1.25rem; }
+.hover\:bg-gray-500:hover { background-color: #6b7280; }
+.rounded-lg { border-radius: 0.5rem; }
