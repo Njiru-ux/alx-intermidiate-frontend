@@ -1,0 +1,11 @@
+node_modules/
+output.css
+
+# Compiled SCSS files
+0x03-sass_scss/0-debug_log.css
+0x03-sass_scss/0-debug_log.css.map
+0x03-sass_scss/1-color_variable.css
+0x03-sass_scss/1-color_variable.css.map
+
+# SCSS cache
+.sass-cache/
